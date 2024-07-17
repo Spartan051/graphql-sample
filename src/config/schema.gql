@@ -1,0 +1,14 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  getOneUser(id: Int!): User!
+  getUser: User!
+}
+
+type User {
+  displayName: String
+  id: Int!
+  username: String!
+}
